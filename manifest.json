@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Hide Sponsored",
+  "version": "1.0",
+  "description": "Hide sponsored content",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
